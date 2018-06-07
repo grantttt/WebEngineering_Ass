@@ -1,0 +1,60 @@
+create database sgGameshop
+
+use sgGameshop
+
+create table Users(
+	U_id varchar(255) not null,
+	U_name varchar(255) not null,
+	U_password varchar(255) not null,
+	U_email varchar(255) not null,
+	U_phone varchar(12) not null,
+	primary key(U_id)	
+);
+
+create table GameList(
+	G_id varhar(255) not null,
+	G_name varhar(255) not null,
+	G_price double(5,2) not null,	
+	G_desc varhar(255) not null,
+	G_date date not null,
+	primary key(G_id)
+);
+
+create table GameCategory(
+	GC_id varchar(255) not null,
+	GC_catergory varchar(255) not null,
+	primary key(GC_catergory)
+);
+
+create table GamePlatform(
+	GP_id varchar(255) not null,
+	GP_platform enum('Xbox','PlayStation','PC')
+	primary key(GP_platform)
+);
+
+create table GameStatus(
+	GS_id varchar(255) not null,
+	GS_status enum('Available','Unavailable','Pre-order'),
+	primary key(GS_id, GS_status)
+);
+
+create table GameCreator(
+	CRE_gameID varchar(255) not null,
+	CRE_developer varchar(255) not null,
+	CRE_publisher varchar(255) not null,
+	primary key(CRE_gameID)
+);
+
+create table ShirtList(
+	S_id varchar(255) not null,
+	S_name varchar(255) not null,
+	S_price double(5,2) not null,
+	S_size enum('xs','s','m','l','xl'),
+	primary key(S_id)
+);
+
+create table GameRequirements(
+	GR_id varchar(255) not null,
+	GR_minRequirement(255) not null
+	primary key(GR_id, GR_minRequirement)
+);

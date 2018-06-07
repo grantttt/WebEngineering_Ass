@@ -1,0 +1,132 @@
+body{
+    
+}
+/*Header related elements*/
+header{
+    position: relative;
+    top: 0%;
+    height: 95px;
+    background-color: #eff0f2;
+    align-content: center;
+}
+
+/*--Branding Image--*/
+.BrandImg{
+    float: left;
+    width: 12%;
+    height: auto;
+}
+.BrandImg img{
+    width: 150px;
+    height: auto;
+}
+/*--Branding Image Ends Here--*/
+
+/*--Search Bar Input--*/
+.searchBar{
+    display: inline-block;
+    align-content: center;
+    width: 30%;
+    height: 65px;
+}
+.searchImg{
+    width: 38px;
+    height: auto;
+    float: left;
+    
+}
+.bar{
+    float: left;
+    height: 38px;
+    width: 300px;
+}
+/*--Search Bar Input Ends Here--*/
+
+/*--Dropdown menu navigation Starts Here--*/
+.menu{
+    width: 30%;
+    height: 30px;
+    display: inline-block;
+}
+.menu li{
+    list-style: none;
+    display: inline;
+}
+.menu_arrow{ 
+    width: 20px;
+    height: auto;
+    
+}
+.hDropdown ul{
+    display: none;
+}
+.hDropdown ul li{
+    
+}
+.hDropdown ul li :hover ul{
+    display: inline-block;
+}
+/*--Dropdown menu navigation Ends Here--*/
+
+/*--Account / ShopCart--*/
+.hRight{
+    display: inline-block;
+}
+.logIn{
+
+}
+.shopCart{
+
+}
+/*--Account / ShopCart Ends Here--*/
+
+
+/*Header ends here*/
+
+/*From this point on will be the styling
+  of respective pages*/
+
+/*--Slideshow Starts Here--*/
+/*--Slideshow Ends here--*/
+
+/*--Showcases start here--*/
+
+/*--Showcases end here--*/
+
+/*End of the content's styling*/
+
+/*Footer related elements*/
+footer{
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0px;
+    height: 18  0px;
+    background-color: #eff0f2;
+    
+}
+.foot_left{
+    float: left;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.social_mlinks img{
+    width: 25px;
+    height: auto;
+}
+.fpage_link{
+    
+}
+.foot_right{
+    float: right;
+    width: 50%;
+    
+}
+.fSubscribe{
+
+}
+.fTerms{
+
+}
+
+/*Footer ends here*/

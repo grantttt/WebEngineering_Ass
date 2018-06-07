@@ -1,15 +1,180 @@
-<html>
+<!--Things to take note:
+        -Ensure that functional parts of the code are labeled and commented
+        -Only Use ID on functions/layout for that specific page only, for future CSS use 
+        -If possible have JavaScript/PHP codes placed into a different file 
+         or at the end of the body (better improve load times)
+        -Each and every page should have the header(To be changed) and footer as well as
+         the html tag and head tag's content copied to it
+-->
+
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
         <title>Game Store</title>
-        <link rel="" type="css/stylesheet" href="">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <!--Header of pages start here, ensure that everything is copied 
+            properly to other pages-->
         <header>
-            
-        </header>
+            <div class="BrandImg">
+                <a href="index.html"><img src="img/title_logo/Title.png"></a>
+            </div>
+            <div class="searchBar">
+                <form action="">
+                    <input type="text" class="bar" name="search" placeholder="Search here..">
+                    <input type="image" class="searchImg" alt="Search Here" src="img/searchSymbol.png">
+                </form>
+            </div>
 
+            <div class="menu">
+                <ul>
+                    <li><a href="">Gaming</a></li>
+                    <img src="img/arrowDown.png" class ="menu_arrow">
+                    <div class="hDropdown">    
+                        <ul>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Catergories</a></li>
+                            <img src="img/arrowRight.png" class ="menu_arrow" >
+                                <ul>
+                                    <li><a href="">Action</a></li>
+                                    <li><a href="">FPS</a></li>
+                                    <li><a href="">RPG</a></li>
+                                    <li><a href="">MMO</a></li>
+
+                                    <li><a href="">Tactical</a></li>
+                                    <li><a href="">Strategy</a></li>
+                                    <li><a href="">TPS</a></li>
+                                    <li><a href="">Arcade</a></li>
+                                </ul>
+                            <a href=""><li>Hardware</li></a>
+                            <img src="img/arrowDown.png" class ="menu_arrow" >
+                                <ul>
+                                    <li><a href="">Gaming Mouse</a></li>
+                                    <li><a href="">Gaming Keyboard</a></li>
+                                    <li><a href="">Gaming Monitor</a></li>
+                                    <li><a href="">Gaming Furniture</a></li>
+                                </ul>
+                        </ul>
+                    </div>
+                    <li><a href="">Giftcards</li></a>
+                </ul>
+            </div>
+            <div class="hRight">
+                <div class="logIn">
+                    <a href="">Log In </a>
+                    or 
+                    <a href="">Register</a>
+                </div>
+                <div class="shopCart">
+                    <a href=""><img src="img/shoppingCart.png"></a>
+                </div>
+            </div>  
+        </header>
+        <!--Header ends here-->
+
+        <!---Content of the page will begin here-->
+        <div class="">
+            <div class="slideshow">
+
+            </div>
+            <div class="recentlyAdded">
+                Recently Added
+                <div class="showcase">
+                    <div class="item_container">
+                        <img src="" alt="Game Image">
+                        <table>
+                            <tr>
+                                <td>Name</td>
+                                <td>Pubg</td>
+                            </tr>
+                            <tr>
+                                <td>Price </td>
+                                <td>RM2.6b</td>
+                            </tr>
+                        </table>
+                        <a href="">See More</a>
+                    </div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <button>Show More</button>
+                </div>
+            </div>
+            <div class="popular">
+                Popular Titles
+                <div class="showcase">
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <button>Show More</button>
+                </div>
+            </div>
+            <div class="popular">
+                Upcoming Titles
+                <div class="showcase">
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <div class="item_container"></div>
+                    <button>Show More</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Page content ends here-->
+
+        <!--Footer begins here, consists of two section(left & right)-->
         <footer>
+            <div class="foot_left">
+                <div class="social_mlinks">
+                    Find us on social media: 
+                    <a href=""><img src="img/icons/facebookIcon.png" alt="Facebook page link"></a>
+                    <a href=""><img src="img/icons/twitter.png" alt="Twitter page link"></a>
+                    <a href=""><img src="img/icons/instagramIcon.png" alt="Instagram page link"></a>
+                    <a href=""><img src="img/icons/twitchIcon.png" alt="Twitch stream page link"></a>
+                    <a href=""><img src="img/icons/discordIcon.png" alt="Discord page link"></a>
+                    
+                </div>
+                <div class="fpage_link">
+                    <a href="#">Home</a><br>
+                    <a href="#">Catergories</a><br>
+                    <a href="#">About Us</a><br>
+                    <a href="#">Our Products</a><br>
+                </div>
+            </div>
             
+            <div class="foot_right">
+                <div class="fsubscribe">
+                    Subscribe to our newsletter and receive daily deals and updates
+                    <button>Subscribe!</button>
+
+                </div>
+                <div class="FTerms">
+                   <h3>Terms and Condition</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Commodi, consequatur necessitatibus. Soluta omnis deserunt 
+                        praesentium delectus, iure nostrum! Eaque adipisci consequuntur 
+                        necessitatibus quisquam et corrupti nihil perspiciatis omnis 
+                        recusandae modi.</p>
+                </div>
+            </div> 
         </footer>
     </body>
+    <script>
+        
+    </script>
 </html>

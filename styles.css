@@ -43,7 +43,7 @@ body{
 }
 .searchImg{
     float: left;
-    width: auto;
+    width: 46px;
     height: 46px;
     background: #4e4e4e;
     
@@ -178,10 +178,37 @@ body{
   */
 
 #register .formContainer{
-    background-color: green;
-    width: 50%;
+    background-color: #9e9e9e;
+    width: 40%;
     height: 80%;
-    margin: 0 auto;
+    margin: 10px auto;
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+#register .formContainer input{
+    height: 35px;
+    width: 90%; 
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+.r_subButt{
+    background-color: #c1c5cc;
+    outline: none;
+    border: none;
+    width: 70%;
+    height: 36px;
+    margin: 0px 65px;
+    font-size: 20px;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+}
+.r_subButt:hover{
+    background-color: #4e4e4e;
+    color: white;
 }
 .topContent{
 

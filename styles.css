@@ -1,0 +1,303 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Header starts here*/
+.header{
+    background-color: #eff0f2;
+    padding: 5px 5px 0px 5px;
+    top: 0;
+}
+.headerUp{
+    width: 100%;
+    height: 70px;
+    padding-bottom: 10px; 
+}
+.BrandImg{
+    float: left;
+    
+}
+.BrandImg img{
+    width: auto;
+    height: 65px;
+}
+/*SearchBar function starts here*/
+.searchBar{
+    float: left;
+    padding: 5px;
+    margin: 8px 0px 0px 10px; 
+    font-size: 18px;
+    width: 55%;
+    height: auto;
+}
+.bar{
+    font-size: 18px;
+    float: left;
+    height: 46px;
+    width: 85%;
+    border: none;
+    padding: 0px 15px;
+}
+.searchImg{
+    float: left;
+    width: 46px;
+    height: 46px;
+    background: #4e4e4e;
+    
+}
+@media screen and (max-width: 600px){
+    .header .searchBar{
+        float: none;
+    }
+}
+.bar:focus{
+    box-shadow: 1px rgb(70, 70, 70);
+    color: #4e4e4e;
+}
+.searchImg:hover{
+    background-color: #ccc;
+}
+/*Search Bar function ends*/
+
+/*Login and Register Buttons starts here*/
+.login{
+    float: left;
+    width: 18%;
+    height: 40px;
+    font-size: 18px;
+    margin: auto;
+    padding-top: 25px;
+}
+.login a{
+    text-align: center;
+    font-size: 19px;
+    text-decoration: none;
+    color: #050505;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    transition-duration: 0.3s;
+}
+.login a:hover{
+    background-color: #4e4e4e;
+    color: #f3f3f3;
+}
+/*Login and Register Buttons ends*/
+
+/*Shopcart Image starts here*/
+.shopCart{
+    float: right;
+}
+.shopCart img{
+    height: 45px;
+    width: auto;
+    margin-top: 15px;
+    padding-bottom: 5px;
+}
+/*Shopcart Image ends here*/
+
+/*Menu styling starts here*/
+.headerDown{
+    width: 100%;
+    height: auto;
+    overflow: hidden;  
+}
+.menu{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    background-color: #d3d3d3;
+}
+.menu a{
+    font-size: 21px;
+    color: #555555;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    transition-duration: 0.3s;
+}
+
+@media screen and (max-width: 500px){
+    .menu a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+.menu a:hover, .dropdown:hover .dropBtn a{
+    background-color: #4e4e4e;
+    color: white;
+}
+    /*--Dropdown Menu--*/
+    .dropBtn{
+        background-color: #d3d3d3;
+        font-size: 19px;
+        outline: none;
+        border: none;
+        margin-bottom: 0px;
+        transition-duration: 0.3s;
+    }
+    .dropdown{
+        float: left;
+        overflow: hidden;
+    }
+    .dropContent{
+        display: none;
+        position: absolute;
+        background-color: #f3f3f3;
+        min-width: 150px;
+        z-index: 1;
+    }
+    .dropdown:hover .dropContent{
+        display: block;
+        width: 300px;
+    }
+    .dropContent a{
+        float: none;
+        padding: 12px 16px;
+        display: block;
+        text-align: left;
+    }
+    .leftDrop{
+        float: left;
+        padding: 3px 8px;
+    }
+    .rightDrop{
+        display: inline-block;
+    }
+
+    /*--Dropdown Menu ends here--*/
+/*--Menu Navigation Ends Here--*/
+/*Header ends here*/
+
+/*From this point on will be the styling of respective pages,
+ for easier reading include the ID of that page in the body tag.
+  */
+
+#register .formContainer{
+    background-color: #9e9e9e;
+    width: 40%;
+    height: 80%;
+    margin: 10px auto;
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+#register .formContainer input{
+    height: 35px;
+    width: 90%; 
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+.r_subButt{
+    background-color: #c1c5cc;
+    outline: none;
+    border: none;
+    width: 70%;
+    height: 36px;
+    margin: 0px 65px;
+    font-size: 20px;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+}
+.r_subButt:hover{
+    background-color: #4e4e4e;
+    color: white;
+}
+.topContent{
+
+}
+.slideshow{
+
+}
+.slideTips{
+
+}
+.middleContent{
+
+}
+
+/*End of the content's styling*/
+
+/*Footer elements starts here*/
+.footer{
+    bottom: 0;
+    height: 280px;
+    background-color: #eff0f2;
+    width: 100%;
+}
+/*Left-Section of the footer*/
+.foot_left{
+    float: left;
+    width: 47%;
+    height: 270px;
+    padding: 0px 15px 0px 15px;
+}
+.fsocial_mlinks{
+    margin: 20px 10px 0px 20px;
+    padding: 15px 15px 0px 35px;
+    font-size: 17px;
+}
+.fsocial_mlinks a{
+    height: 55px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 8px 10px 8px;
+}
+.fsocial_mlinks a img{
+    height: 35px;
+    width: auto;
+    padding:  2px;
+    border-radius: 40%;
+}
+.fsocial_mlinks a img:hover{
+    background-color: #a8a8a8;    
+}
+.fpage_links{
+    margin: 10px;
+    padding: 10px 45px 0px 45px;
+}
+.fpage_links a{
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 170%;
+    color: black;
+}
+/*Right-Section of the footer*/
+.foot_right{
+    float: right;
+    width: 49%;
+    height: 250px;  
+}
+.fSubscribe{
+    padding: 30px 30px 0px 30px;
+    font-size: 20px;
+}
+.fSubscribe button{
+    padding: 15px;
+    font-size: 20px;
+    background-color: #c1c5cc;
+    color: #555555;
+    border:none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.4s; 
+}
+.fSubscribe button:hover{
+    background-color: #4e4e4e;
+    color: white;
+}
+.fTerms {
+    padding: 10px 30px 0px 30px; 
+}
+.fTerms_content{
+    font-size: 14px;
+}
+
+/*Footer ends here*/

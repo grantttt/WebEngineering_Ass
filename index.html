@@ -1,15 +1,167 @@
-<html>
+<!--Things to take note:
+        -Ensure that functional parts of the code are labeled and commented
+        -Only Use ID on functions/layout for that specific page only, for future CSS use 
+        -If possible have JavaScript/PHP codes placed into a different file 
+         or at the end of the body (better improve load times)
+        -Each and every page should have the header(To be changed) and footer as well as
+         the html tag and head tag's content copied to it
+-->
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Game Store</title>
-        <link rel="" type="css/stylesheet" href="">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
+        <!--Header of pages start here, ensure that everything is copied 
+            properly to other pages-->
+        <div class="container">
+            <div class="header">
+                <div class="headerUp">
+                    <div class="BrandImg">
+                        <a href="index.html"><img src="img/title_logo/Title.png"></a>
+                    </div>
+                    
+                    <div class="searchBar">
+                        <form action="" method="POST">
+                            <input type="text" class="bar" name="search" placeholder="Search here..">
+                            <input type="image" class="searchImg" alt="Search Here" src="img/searchImg.png">
+                        </form> 
+                    </div>
             
-        </header>
+                    <div class="login">
+                        <div class="log_reg"> 
+                            <a href="">Log In</a>
+                            or 
+                            <a href="">Register</a>
+                        </div>
+                    </div>
+                    
+                    <div class="shopCart">
+                        <a href=""><img src="img/shoppingCart.png"></a>
+                    </div>
+                </div> 
+            
+                <div class="headerDown">
+                    <div class="menu">
+                        <div class="dropdown">
+                            <button class="dropBtn"><a href="">Games</a></button>
+                            <div class="dropContent">
+                                <div class="leftDrop">
+                                    <a href="">MMO</a>
+                                    <a href="">Shooter</a>
+                                    <a href="">Strategy</a>
+                                    <a href="">Action</a>
+                                    <a href="">MOBA</a>
+                                </div>
+                                <div class="rightDrop">
+                                    <a href="">Survival</a>
+                                    <a href="">Horror</a>
+                                    <a href="">Retro</a>
+                                    <a href="">Single-Player</a>
+                                    <a href="">Mystery</a>
+                                </div>
+                            </div>    
+                        </div>
+                        <a href="">Merchandise</a>
+                        <a href="">Giftcards</a>
+                    </div>
+                </div>
+            </div>
+            <!--Header ends here-->
+            
+            <!---Content of the page will begin here-->
+            <div class="content">
+                <div class="topContent">
+                    <div class="slideshow">
+                        <div class="slides fade">
+                            <div class="numberText">1</div>
+                            <img src="" alt="Nothing to see here">
+                            <div class="text"></div>
+                        </div>
+                        <div class="slides fade">
+                            <div class="numberText">2</div>
+                            <img src="" alt="Nothing to see here">
+                            <div class="text"></div>
+                        </div>
+                        <div class="slides fade">
+                            <div class="numberText">3</div>
+                            <img src="" alt="Nothing to see here">
+                            <div class="text"></div>
+                        </div>
+                        <div class="slides fade">
+                            <div class="numberText">4</div>
+                            <img src="" alt="Nothing to see here">
+                            <div class="text"></div>
+                        </div>
+                        <div class="slides fade">
+                            <div class="numberText">5</div>
+                            <img src="" alt="Nothing to see here">
+                            <div class="text"></div>
+                            </div>
+                    </div> 
+                    <div class="showCase">
+                        <div class="item1">
+                            Latest Item 
+                        </div>
+                        <div class="item2">
+                            Latest Deals
+                        </div>
+                    </div>
+                </div>
+                <div class="middleContent">
+                    <div class="recentsBar">
+                        
+                    </div>
+                    <div class="popularBar">
 
-        <footer>
+                    </div>
+                </div>
+            </div>
             
-        </footer>
+            <!--Page content ends here-->
+            
+            <!--Footer begins here, consists of two section(left & right)-->
+            <div class="footer">
+                <div class="foot_left">
+                    <div class="fsocial_mlinks">
+                        
+                        <a href=""><img src="img/icons/facebookIcon.png" alt="Facebook page link"></a>
+                        <a href=""><img src="img/icons/twitter.png" alt="Twitter page link"></a>
+                        <a href=""><img src="img/icons/instagramIcon.png" alt="Instagram page link"></a>
+                        <a href=""><img src="img/icons/twitchIcon.png" alt="Twitch stream page link"></a>
+                        <a href=""><img src="img/icons/discordIcon.png" alt="Discord page link"></a>
+                        <br>Find us on these social media platform! <br>
+            
+                    </div>
+                    <div class="fpage_links">
+                        <a href="#">Home</a><br>
+                        <a href="#">Catergories</a><br>
+                        <a href="#">About Us</a><br>
+                        <a href="#">Our Products</a><br>
+                    </div>
+                </div>
+                
+                <div class="foot_right">
+                    <div class="fSubscribe">
+                        Subscribe to our newsletter and receive daily deals and updates<br><br>
+                        <a href="register.html"><button>Subscribe Here!</button></a>
+                    </div>
+                    <div class="fTerms">
+                       <h2>Terms and Condition</h2>
+                        <div class="fTerms_content">
+                            SG_Gaming &copy Copyright. 
+                            <br>All Rights Reserved
+                        </div>
+                    </div>  
+                </div> 
+            </div>
+        </div>
     </body>
+    <script>
+        
+    </script>
 </html>
